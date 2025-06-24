@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Navbar styles */
+.dashboard-container {
+  display: flex;
+}
+
+@layer utilities {
+  .boxglow {
+    box-shadow: 0 0 10px #2deff5;
+  }
+
+  .text-xxs {
+    font-size: x-small;
+  }
+}
+
+@layer components {
+  .dashboard-container-main,
+  .dashboard-container-about,
+  .dashboard-container-contacts {
+    @apply md:my-0;
+    @apply my-2;
+    @apply rounded-md;
+    @apply p-4;
+  }
+
+  .dashboard-container-main {
+    @apply bg-[#181818];
+    @apply border;
+    z-index: -1;
+  }
+
+  .dashboard-container-about,
+  .dashboard-container-contacts {
+    @apply transition-colors;
+    @apply duration-300;
+    @apply bg-[#181818];
+    @apply hover:bg-[#252525];
+    @apply border;
+  }
+
+  .divider::after {
+    content: "";
+    display: block;
+    background-color: rgb(219, 219, 219);
+
+    @apply md:h-4;
+    @apply xl:h-[1.1rem];
+    @apply w-[0.2rem];
+  }
+}
+
+/*glow-card-amination*/
+.animated-glow-card {
+  position: relative;
+  z-index: 1;
+}
+
+.animated-glow-card::before,
+.animated-glow-card::after {
+  content: "";
+  position: absolute;
+  height: 104%;
+  width: 102%;
+  background-color: color-mix(in oklab, red percentage, blue percentage);
+  top: 50%;
+  bottom: 50%;
+  translate: -1% -50%;
+  z-index: 2;
+}
+
+.dashboard-container-main::-webkit-scrollbar {
+  width: 8px;
+  background: inherit;
+}
+
+.dashboard-container-main::-webkit-scrollbar-thumb {
+  margin-top: 80px; /* Add margin so scrollbar starts below navbar */
+  margin-bottom: 8px;
+  background: #22d3ee; /* cyan */
+  border-radius: 4px;
+}
+
+.dashboard-container-main {
+  scrollbar-color: #22d3ee inherit; /* cyan thumb, inherit track */
+  background-clip: padding-box;
+}
