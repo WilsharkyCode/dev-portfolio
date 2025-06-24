@@ -17,11 +17,11 @@ export const PORTFOLIO = [
     techUsed:'Javascript, ReactJS, NodeJS, TailwindCSS',
     description:'A gamified learning platform for learning the Tagalog language made for Android devices.',
     images: [
-      { src: "/src/assets/images/salinlaro1.jpg", alt: "Main Image" },
-      { src: "/src/assets/images/salinlaro2.jpg", alt: "Secondary 1" },
-      { src: "/src/assets/images/salinlaro3.jpg", alt: "Secondary 2" },
-      { src: "/src/assets/images/salinlaro4.jpg", alt: "Secondary 3" },
-      { src: "/src/assets/images/salinlaro5.jpg", alt: "Secondary 4" },
+      { src: "images/salinlaro1.jpg", alt: "Main Image" },
+      { src: "images/salinlaro2.jpg", alt: "Secondary 1" },
+      { src: "images/salinlaro3.jpg", alt: "Secondary 2" },
+      { src: "images/salinlaro4.jpg", alt: "Secondary 3" },
+      { src: "images/salinlaro5.jpg", alt: "Secondary 4" },
     ],
   },
   {
