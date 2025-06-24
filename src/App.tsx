@@ -4,6 +4,7 @@ import AboutContent from "./components/AboutContent";
 import WorkExperienceContent from "./components/WorkExperienceContent";
 import PortfolioContent from "./components/PortfolioContent";
 import ParticlesBG from "./components/Particles";
+import { Analytics } from "@vercel/analytics/next"
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
 
   return (
     <>
+    <Analytics />
       <div className="bg-gradient-to-tl from-[#371854] to-[#0c1617] w-dvw min-w-[320px] h-dvh p-2 sm:p-7 justify-items-center items-center 
       overflow-auto relative"style={{
               scrollbarWidth: "none", // Firefox
