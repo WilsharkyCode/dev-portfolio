@@ -4,7 +4,7 @@ import AboutContent from "./components/AboutContent";
 import WorkExperienceContent from "./components/WorkExperienceContent";
 import PortfolioContent from "./components/PortfolioContent";
 import ParticlesBG from "./components/Particles";
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react"
 
 
 function App() {
