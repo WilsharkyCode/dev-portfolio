@@ -26,18 +26,19 @@ export const PORTFOLIO = [
   },
   {
     id: 2,
-    projectName: "Salin-Laro",
+    projectName: "Cloud-based Dental Patient Record Management System",
     link:'',
     techUsed:'Javascript, ReactJS, NodeJS, TailwindCSS',
-    description:'helo',
-    images: [
-      { src: "/images/salinlaro1.jpg", alt: "Main Image" },
-      { src: "/images/salinlaro2.jpg", alt: "Secondary 1" },
-      { src: "/images/salinlaro3.jpg", alt: "Secondary 2" },
-      { src: "/images/salinlaro4.jpg", alt: "Secondary 3" },
-      { src: "/images/salinlaro5.jpg", alt: "Secondary 4" },
+    description:'Powered by Firebase, this fullstack web application replaces the outdated manual paperwork process of Aldana Clinic. It handles patient records, inventory, employee management, and payroll system in one web app. It uses Advanced Encryption Standard (AES) Algorithm like the one used by U.S. government to protect classified information.',
+     images: [
+      { src: "/images/TabletMockup.png", alt: "Main Image" },
+      { src: "/images/Dental1.png", alt: "Secondary 1" },
+      { src: "/images/Dental3.png", alt: "Secondary 2" },
+      { src: "/images/Dental4.png", alt: "Secondary 3" },
+      { src: "/images/Dental5.png", alt: "Secondary 4" },
     ],
   },
+  
   
 ];
 

@@ -20,10 +20,12 @@ export default function AboutContent() {
                     MARK WILSHIRE FAMORCA
                 </b>
                 <p className="xl:text-lg  lg:text-sm text-xs  text-slate-100">
-                    FullStack Software Developer
+                    Full-Stack Software Developer
                 </p>
                 <p className="xl:text-base  text-xxs text-[#a2a2a2]">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam gravida, diam nec efficitur accumsan, ex eros dignissim odio, ut bibendum purus enim ut leo.
+                Hello, I'm Wilshire. A Web & Mobile Full‑Stack Developer with hands-on experience deploying full applications.
+I build clean, scalable solutions that deliver real impact.
+
                 </p>
             </div>
             <div className="mt-3">

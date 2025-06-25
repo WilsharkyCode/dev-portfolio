@@ -21,7 +21,7 @@ function App() {
         <div className="md:contents hidden"  >
             <ParticlesBG />
           </div>
-        <div className="lg:flex justify-center contents relative z-10 flex-col lg:flex-row">
+        <div className="lg:flex justify-center contents relative z-10 flex-col lg:flex-row m-8">
           {/*Main Content Start*/}
           <div className="xl:h-[49rem] lg:h-[30rem] lg:w-[22%] w-full min-w-[0]">
             <div>
@@ -33,10 +33,9 @@ function App() {
           </div>
 
           <div className="dashboard-container-main bgborder 
-           xl:h-[49rem] md:h-[30rem] lg:w-[63%] lg:ml-4 w-full min-w-[0] h-fit md:overflow-x-hidden pt-0"
-            >
+           xl:h-[49rem] md:h-[30rem] lg:w-[63%] lg:ml-4 w-full min-w-[0] h-fit md:overflow-x-hidden pt-0">
             {/* Navbar */}
-            <div className=" flex justify-between items-center sticky top-0 bg-[#181818] backdrop-blur-md z-20 w-full left-0 right-0 px-0" style={{ minWidth: 0 }}>
+            <div className="flex justify-between items-center  top-0 bg-[#181818] backdrop-blur-md z-20 w-full left-0 right-0 px-0" style={{ minWidth: 0, position: 'sticky'}}>
               <div className="py-5 flex items-center">
                 <button
                   className={`xl:text-2xl lg:text-xl text-lg transition-all duration-300 ease-in-out
@@ -66,7 +65,6 @@ function App() {
             {/* Content */}
             <div className="mt-5">{activeTab === "EXPERIENCE" && <WorkExperienceContent />}
             {activeTab === "PORTFOLIO" && <PortfolioContent />}</div>
-            
           </div>
 
            

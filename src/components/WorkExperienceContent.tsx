@@ -14,11 +14,15 @@ export default function WorkExperienceContent() {
                         <div className="flex justify-between items-center">
                             <h2 className='text-2xl font-semibold'> {experience.role}</h2>
                             
-                            <div>
+                            <div className="md:contents hidden xl:text-base md:text-md text-xs text-slate-400">
                                 {experience.start} - {experience.end}
                             </div>
                         </div>
-                        {experience.company}
+                        
+                        <div>{experience.company}</div>
+                        <div className="md:hidden contents xl:text-base md:text-md text-xs text-slate-400">
+                                {experience.start} - {experience.end}
+                        </div>
                         <ul>
                             <li>
                                 <div className='flex flex-wrap'>

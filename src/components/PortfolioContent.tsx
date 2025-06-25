@@ -67,7 +67,7 @@ export default function PortfolioContent() {
                     <img
                       src={mainImage.src}
                       alt={mainImage.alt}
-                      className="w-full h-full object-contain"
+                      className="w-full h-full object-cover"
                        style={{ objectPosition: "center 50%" }}
                     />
                   </div>
