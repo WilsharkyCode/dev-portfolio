@@ -49,8 +49,8 @@ export const WORK_EXPERIENCE =[
         id: 2,
         company:'SALIN-LARO',
         start:'JAN 2025',
-        end:'June 2025',
-        role:'Mobile Developer',
+        end:'JUNE 2025',
+        role:'Mobile Developer (Contract)',
         techUsed:['Flutter', 'SQLite', 'Lottie', 'Figma', 'Android Studio'],
         description:[
             "Developed and deployed a free, gamified learning platform for learning the Tagalog language called “Salin-Laro” for Android devices.",
